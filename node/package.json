@@ -1,0 +1,34 @@
+{
+  "name": "digiotouch",
+  "version": "1.0.0",
+  "description": "It is basically content based project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon Server.js"
+  },
+  "author": "Itechno",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.5.2",
+    "axios": "^1.6.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto-random": "^2.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "i18n": "^0.15.1",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^7.6.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.3",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "nodemon": "^2.0.20",
+    "object-hash": "^3.0.0"
+  }
+}
